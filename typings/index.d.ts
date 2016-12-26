@@ -1,9 +1,9 @@
 // Type definitions for discord.js 10.0.1
-// Project: https://github.com/hydrabolt/discord.js
-// Definitions by: acdenisSK <acdenissk69@gmail.com> (https://github.com/acdenisSK)
+// Project: https://github.com/NSL-Soft/discord.js
+// Definitions by: NSL-Danny <danny@nslsoft.com> (https://github.com/NSL-Soft)
 // License: MIT
 
-declare module "discord.js" {
+declare module "nsl_discord" {
     import { EventEmitter } from "events";
     import { Readable as ReadableStream } from "stream";
     import { ChildProcess } from "child_process";

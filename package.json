@@ -1,5 +1,5 @@
 {
-  "name": "discord.js",
+  "name": "nsl-discord.js",
   "version": "10.0.1",
   "description": "A powerful library for interacting with the Discord API",
   "main": "./src/index",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hydrabolt/discord.js.git"
+    "url": "git+https://github.com/NSL-Soft/discord.js.git"
   },
   "keywords": [
     "discord",
@@ -23,12 +23,12 @@
     "node",
     "discordapp"
   ],
-  "author": "Amish Shah <amishshah.2k@gmail.com>",
+  "author": "Danny Morabito <danny@nslsoft.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hydrabolt/discord.js/issues"
+    "url": "https://github.com/NSL-Soft/discord.js/issues"
   },
-  "homepage": "https://github.com/hydrabolt/discord.js#readme",
+  "homepage": "https://github.com/NSL-Soft/discord.js#readme",
   "runkitExampleFilename": "./docs/examples/ping.js",
   "dependencies": {
     "@types/node": "^6.0.0",
@@ -44,7 +44,7 @@
     "uws": "^0.12.0"
   },
   "devDependencies": {
-    "discord.js-docgen": "hydrabolt/discord.js-docgen#master",
+    "discord.js-docgen": "NSL-Soft/discord.js-docgen#master",
     "eslint": "^3.12.0",
     "parallel-webpack": "^1.6.0",
     "uglify-js": "mishoo/UglifyJS2#harmony",
@@ -52,34 +52,5 @@
   },
   "engines": {
     "node": ">=6.0.0"
-  },
-  "browser": {
-    "ws": false,
-    "uws": false,
-    "erlpack": false,
-    "opusscript": false,
-    "node-opus": false,
-    "tweet-nacl": false,
-    "src/sharding/Shard.js": false,
-    "src/sharding/ShardClientUtil.js": false,
-    "src/sharding/ShardingManager.js": false,
-    "src/client/voice/dispatcher/StreamDispatcher.js": false,
-    "src/client/voice/opus/BaseOpusEngine.js": false,
-    "src/client/voice/opus/NodeOpusEngine.js": false,
-    "src/client/voice/opus/OpusEngineList.js": false,
-    "src/client/voice/opus/OpusScriptEngine.js": false,
-    "src/client/voice/pcm/ConverterEngine.js": false,
-    "src/client/voice/pcm/ConverterEngineList.js": false,
-    "src/client/voice/pcm/FfmpegConverterEngine.js": false,
-    "src/client/voice/player/AudioPlayer.js": false,
-    "src/client/voice/player/BasePlayer.js": false,
-    "src/client/voice/player/DefaultPlayer.js": false,
-    "src/client/voice/receiver/VoiceReadable.js": false,
-    "src/client/voice/receiver/VoiceReceiver.js": false,
-    "src/client/voice/util/SecretKey.js": false,
-    "src/client/voice/ClientVoiceManager.js": false,
-    "src/client/voice/VoiceConnection.js": false,
-    "src/client/voice/VoiceUDPClient.js": false,
-    "src/client/voice/VoiceWebSocket.js": false
   }
 }
